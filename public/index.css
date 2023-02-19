@@ -1,0 +1,96 @@
+   .msg{
+    color: red;
+   }
+   .success{
+    margin-bottom: 50px;
+   }
+   .bb{
+    margin-top: 50px;
+   }
+   .profile{
+    width: 100%;
+    height: 100%;
+   }
+   .btn{
+    margin-left: 20px ;
+    margin-right: 20px ;
+   }
+   .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 20px;
+      padding-bottom: 0px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  /* .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  } */
+.footer-padding {
+	padding-bottom: 60px;
+}
+body{
+background-image:url("https://www.transparenttextures.com/patterns/food.png");
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #e35d5d;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+.log {
+  /* display: flex; */
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  /* background-color: #f5f5f5; */
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.logo{
+  border-radius: 50%;
+}
+
+.gradient-custom {
+  background: #f6d365;
+  background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }

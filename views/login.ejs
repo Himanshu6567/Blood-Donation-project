@@ -1,0 +1,29 @@
+<%- include("partials/header") %>
+<div class="text-center log">
+    
+    <main class="form-signin w-100 m-auto">
+      <form action="/profile" method="post">
+        <img class="mb-4 logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPe-IVBvoca8CBzUNLLUZCU_cDACaJfDnx-g&usqp=CAU" alt=""
+        height="150px" width="150px">
+        <h1 class="h3 mb-3 fw-normal">Log In</h1>
+    
+        <div class="form-floating">
+          <input required name="mail" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input required name="pass" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class=" btn btn-danger" type="submit">Log In</button>
+        <a href="/signup"><button type="button" class="btn  btn-outline-danger">Sign Up</button></a>
+      </form>
+    </main>  
+</div>
+  <%- include("partials/footer") %>

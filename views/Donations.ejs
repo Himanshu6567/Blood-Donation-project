@@ -1,0 +1,25 @@
+<%- include("partials/header") %>
+<div class="text-center log">
+    
+    <main class="form-signin w-100 m-auto">
+      <form action="/donoDetails" method="post">
+        <h1 class="h3 mb-3 fw-normal">Donation Details</h1>
+        <p class="msg">* Enter Details carefully !!</p>
+    
+        <div class="form-floating">
+          <input required name="date" type="date" class="form-control" id="floatingInput" >
+          <label for="floatingInput">Date</label>
+        </div>
+        <div class="form-floating">
+          <input required name="place" type="text" class="form-control" id="floatingPassword" >
+          <label for="floatingPassword">Place</label>
+        </div>
+        <div class="form-floating">
+            <input required name="id" type="number" class="form-control" id="floatingPassword">
+            <label for="floatingPassword">Unique ID</label>
+          </div>
+        <button type="submit" class="btn bb btn-outline-danger">Submit</button>
+      </form>
+    </main>  
+</div>
+<%- include("partials/footer") %>
